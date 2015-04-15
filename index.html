@@ -1,1 +1,42 @@
-hello world!
+<!doctype html>
+<html>
+<head>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Drew Littrell - Portfolio</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index-grid.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="body page-index clearfix">
+  <div class="wrapper clearfix">
+    <div id='header_nav' class="nav shadow clearfix">
+      <div id='drewlogo' class="logo"></div>
+	  	<div id='pagetitle' class="page-title"></div>	
+      <div id='buttons' class="navbuttons">
+				<a href="http://fcsintranet.maky.midam.farm/JourneyTo2020/Pages/default.aspx">READING</a>
+				<a href="http://fcsintranet.maky.midam.farm/JourneyTo2020/Pages/default.aspx">RESUME</a>
+				<a href="http://fcsintranet.maky.midam.farm/JourneyTo2020/Pages/default.aspx">CONTACT</a>
+				<a class='active' href="index.html">WORK</a>				
+			</div>
+    </div>
+    <div class="promo section-padding"></div>
+    <div class="journey section-padding"></div>
+    <div class="_2020vision section-padding"></div>
+    <div class="growing"></div>
+  </div>
+  <p class="email">drew@drewlittrell.com</p>
+	  <script src="js/jquery-min.js"></script>
+  <script src="js/lightbox.min.js"></script>	
+<script>
+$(window).on("scroll touchmove", function () {
+  $('#header_nav').toggleClass('tiny', $(document).scrollTop() > 60);
+	$('#buttons').toggleClass('tiny', $(document).scrollTop() > 60);
+	$('#pagetitle').toggleClass('tiny', $(document).scrollTop() > 60);
+});
+</script>	
+</body>
+</html>
