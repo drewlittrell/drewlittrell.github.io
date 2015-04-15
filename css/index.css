@@ -268,13 +268,6 @@ body {
 	transition: background-image 3s ease-out;
 }
 
-._2020vision:before {
-  content: url('../images/VisionButton.png');
-  width:0;
-  height:0;
-  visibility:hidden;
-}
-
 ._2020vision span {
   position: absolute;
 	top: 0;
@@ -292,4 +285,11 @@ body {
 ._2020vision span:hover {
 	opacity: 1;
 	transition: opacity 300ms ease-in;
+}
+
+._2020vision:before {
+  content: url('../images/VisionButton.png');
+  width:0;
+  height:0;
+  visibility:hidden;
 }
