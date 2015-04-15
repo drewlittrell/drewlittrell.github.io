@@ -25,6 +25,8 @@ nav {
 .email a {
 	color: #2f1e0f;
 	text-decoration: underline;
+	font-family: 'open sans';
+	font-size: 1.2em;
 }
 
 footer {
@@ -43,6 +45,13 @@ footer {
   background-size: cover;
   background-position: center center;
 	margin-bottom: 150px;
+}
+
+.growing:before {
+  content: url('../images/GrowingButton(2).png');
+  width:0;
+  height:0;
+  visibility:hidden;
 }
 
 .growing span {
@@ -76,6 +85,13 @@ footer {
   background-position: center center;
 }
 
+.journey:before {
+  content: url('../images/JourneyButton.png');
+  width:0;
+  height:0;
+  visibility:hidden;
+}
+
 .journey span {
   position: absolute;
 	top: 0;
@@ -106,7 +122,7 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-	transition: margin-top 300ms ease;
+	transition: margin-top 400ms ease;
 }
 
 .logo.tiny {
@@ -125,6 +141,7 @@ footer {
 	opacity: 1;
 	transition: height 300ms ease-in, opacity 1s;
 	z-index: 1000;
+	-webkit-transform: translateZ(0);
 }
 
 .nav.tiny {
@@ -209,7 +226,8 @@ footer {
 }
 
 .page-title.tiny {
-	height: 25px;
+	height: 28px;
+	-webkit-transform: translateZ(0);
 }
 
 @media (max-width: 500px) {
@@ -241,6 +259,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.promo:before {
+  content: url('../images/PromoButton.png');
+  width:0;
+  height:0;
+  visibility:hidden;
 }
 
 .promo span {
@@ -291,7 +316,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-	transition: background-image 3s ease-out;
+}
+
+._2020vision:before {
+  content: url('../images/VisionButton.png');
+  width:0;
+  height:0;
+  visibility:hidden;
 }
 
 ._2020vision span {
@@ -300,7 +331,7 @@ footer {
 	left: 0;
   width: 100%;
   height: 360px;
-  background-image: url('../images/VisionBUtton.png');
+  background-image: url('../images/VisionButton.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -320,7 +351,7 @@ footer {
 	width: 80px;
 	margin-right: 40px;
 	margin-top: -29px;
-	background-image: url(../images/Hamburgler.SVg);
+	background-image: url(../images/Hamburgler.svg);
 	background-repeat: no-repeat;
   background-size: auto auto;
   background-position: center center;	
