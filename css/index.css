@@ -37,6 +37,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+	margin-bottom: 150px;
 }
 
 .growing:before {
@@ -294,7 +295,7 @@ nav {
   float: left;
   z-index: 7;
   width: 100%;
-  height: 1660px;
+  height: auto;
   background-color: #ffffff;
 }
 
