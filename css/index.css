@@ -30,6 +30,13 @@ body {
   transition: background-image 3s ease-out;
 }
 
+.growing:before {
+  content: url('../images/GrowingButton(2).png');
+  width:0;
+  height:0;
+  visibility:hidden;
+}
+
 .growing:hover {
 	background-image: url('../images/GrowingButton(2).png');
 	transition: background-image 300ms ease-in;
@@ -46,6 +53,13 @@ body {
   background-size: cover;
   background-position: center center;
 	transition: background-image 3s ease-out;
+}
+
+.journey:before {
+  content: url('../images/JourneyButton.png');
+  width:0;
+  height:0;
+  visibility:hidden;
 }
 
 .journey:hover {
@@ -167,6 +181,13 @@ body {
   background-size: cover;
   background-position: center center;
 	transition: background-image 3s ease-out;
+}
+
+.promo:before {
+  content: url('../images/PromoButton.png');
+  width:0;
+  height:0;
+  visibility:hidden;
 }
 
 .promo:hover {
