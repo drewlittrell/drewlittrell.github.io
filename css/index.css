@@ -132,7 +132,7 @@ nav {
   top:0;
 	opacity: 1;
 	transition: height 300ms ease-in, opacity 1s;
-	z-index: 99;
+	z-index: 1000;
 	-webkit-transform: translateZ(0);
 }
 
