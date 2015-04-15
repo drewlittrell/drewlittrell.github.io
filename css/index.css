@@ -193,6 +193,9 @@ nav {
 	background: #88BCCD;
 }
 
+	content: '';
+}
+
 .page-title {
   height: 30px;
   width: auto;
