@@ -205,6 +205,13 @@ body {
 	transition: background-image 3s ease-out;
 }
 
+._2020vision:before {
+  content: url('..images/VisionButton.png');
+  width:0;
+  height:0;
+  visibility:hidden;
+}
+
 ._2020vision:hover {
 	background-image: url('../images/VisionButton.png');
 	transition: background-image 400ms ease-in;
