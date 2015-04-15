@@ -27,6 +27,11 @@ nav {
 	text-decoration: underline;
 }
 
+footer {
+	height: 180px;
+	width: 100%
+}
+
 .growing {
 	position: relative;
   float: left;
