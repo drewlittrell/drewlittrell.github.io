@@ -206,7 +206,7 @@ body {
 }
 
 ._2020vision:before {
-  content: url('..images/VisionButton.png');
+  content: url('../images/VisionButton.png');
   width:0;
   height:0;
   visibility:hidden;
