@@ -331,6 +331,8 @@ a.current:hover:after{
 	transition: opacity 300ms ease-in;
 }
 
+/* Mobile Nav Styles */
+
 .cd-btn {
 	position: relative;
 	float: right;
@@ -351,6 +353,8 @@ a.current:hover:after{
 	height: 1px;
 	border: 0 none;
 }
+
+/* Contact page styles */
 
 .contact {
 	position: relative;
@@ -382,7 +386,7 @@ a.current:hover:after{
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 150px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .contact hr {
@@ -391,6 +395,8 @@ a.current:hover:after{
 	color: #88BCCD;
 	height: 1px;
 	border: 0 none;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 .contact-email {
