@@ -281,16 +281,24 @@
   height: 100%;
   padding: 70px 5%;
   overflow: auto;
+	margin-top: 50px;
+	
   /* smooth scrolling on touch devices */
   -webkit-overflow-scrolling: touch;
 }
 .cd-panel-content p {
+	font-family: 'open sans', sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
   color: #424f5c;
   line-height: 1.4;
   margin: 2em 0;
 }
+
+.cd-panel-content a {
+	color: #2f1e0f;
+}
+
 .cd-panel-content p:first-of-type {
   margin-top: 0;
 }

@@ -110,6 +110,9 @@ footer {
   background-size: contain;
   background-position: center center;
 	transition: margin-top 300ms ease;
+	overflow:hidden;
+  text-indent:100%;
+  white-space:nowrap;
 }
 
 .logo.tiny {
@@ -196,6 +199,10 @@ footer {
 	width: 40%;
 	background: #88BCCD;
 	margin-top: 24px;
+}
+
+a.current:hover:after{
+	background: #fff !important;
 }
 
 .work:before {
