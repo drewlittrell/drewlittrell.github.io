@@ -344,6 +344,14 @@ a.current:hover:after{
   background-position: center center;	
 }
 
+.cd-panel-content hr {
+	width: 80px;
+	background-color: #88BCCD;
+	color: #88BCCD;
+	height: 1px;
+	border: 0 none;
+}
+
 .contact {
 	position: relative;
 	width: auto;
