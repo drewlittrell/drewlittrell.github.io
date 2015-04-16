@@ -191,11 +191,15 @@ footer {
 	content: '';
 	position: absolute;
 	display: block;
-	margin-left: 10%;
+	margin-left: 1em;
 	height: 3px;
 	width: 40%;
 	background: #88BCCD;
 	margin-top: 24px;
+}
+
+.work:before {
+	margin-left: 10% !important;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {  
@@ -331,4 +335,50 @@ footer {
 	background-repeat: no-repeat;
   background-size: auto auto;
   background-position: center center;	
+}
+
+.contact {
+	position: relative;
+	width: auto;
+	height: 100vh;
+	background-color: #f6f6f5;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	color: #2f1e0f;
+}
+
+.contact p {
+	line-height: 2;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contact p a {
+	color: #2f1e0f;
+	text-decoration: underline;
+	padding-bottom: 3px;
+}
+
+.contact img {
+	height: 207px;
+	width: auto;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.contact hr {
+	width: 80px;
+	background-color: #88BCCD;
+	color: #88BCCD;
+	height: 1px;
+	border: 0 none;
+}
+
+.contact-email {
+	font-family: 'open sans', sans-serif;
+	font-size: 20px;
 }
