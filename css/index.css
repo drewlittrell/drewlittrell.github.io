@@ -25,6 +25,9 @@ nav {
 .email a {
 	color: #2f1e0f;
 	text-decoration: underline;
+	font-family: 'open sans';
+  font-size: 1.2em;
+  line-height: 1.38;
 }
 
 footer {
