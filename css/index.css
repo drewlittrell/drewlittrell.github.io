@@ -11,9 +11,9 @@ nav {
 }
 
 .email {
-  display: inline;
+	display: inline;
   position: relative;
-  bottom: 74pt;
+	bottom: 74px;
   clear: both;
   z-index: 8;
   margin: 0 auto;
@@ -31,7 +31,7 @@ nav {
 }
 
 footer {
-	height: 180pt;
+	height: 180px;
 	width: 100%
 }
 
@@ -336,8 +336,8 @@ a.current:hover:after{
 .cd-btn {
 	position: relative;
 	float: right;
-	height: 28pt;
-	width: 80pt;
+	height: 28px;
+	width: 80px;
 	margin-right: 40px;
 	margin-top: -29px;
 	background-image: url(../images/Hamburgler.svg);
@@ -347,10 +347,10 @@ a.current:hover:after{
 }
 
 .cd-panel-content hr {
-	width: 80pt;
+	width: 80px;
 	background-color: #88BCCD;
 	color: #88BCCD;
-	height: 1pt;
+	height: 1px;
 	border: 0 none;
 }
 
@@ -363,7 +363,7 @@ a.current:hover:after{
 	background-color: #f6f6f5;
 	text-align: center;
 	font-family: 'Merriweather', serif;
-	font-size: 18pt;
+	font-size: 18px;
 	color: #2f1e0f;
 }
 
@@ -390,10 +390,10 @@ a.current:hover:after{
 }
 
 .contact hr {
-	width: 80pt;
+	width: 80px;
 	background-color: #88BCCD;
 	color: #88BCCD;
-	height: 1pt;
+	height: 1px;
 	border: 0 none;
 	margin-bottom: 40px;
 	margin-top: 40px;
