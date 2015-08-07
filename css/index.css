@@ -31,7 +31,7 @@ nav {
 }
 
 footer {
-	height: 180px;
+	height: 180pt;
 	width: 100%
 }
 
@@ -72,7 +72,7 @@ footer {
   float: left;
   clear: both;
   width: 100%;
-  height: 360px;
+  height: 360pt;
   background-image: url('../images/JourneyButtonBW.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@ footer {
 	top: 0;
 	left: 0;
   width: 100%;
-  height: 360px;
+  height: 360pt;
   background-image: url('../images/JourneyButton.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,17 +100,13 @@ footer {
 
 .logo {
   display: inline;
-  float: left;
-  width: 42px;
-  height: 42px;
   margin-left: 40px;
-  margin-top: -6px;
   background-image: url('../images/DrewLogo.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-	transition: margin-top 300ms ease;
-	overflow:hidden;
+  transition: margin-top 300ms ease;
+  overflow:hidden;
   text-indent:100%;
   white-space:nowrap;
 }
@@ -139,12 +135,11 @@ footer {
 }
 
 .navbuttons {
-  float: right;
-	display: inline-block;	
+  display: inline-block;	
   height: 100%;
   margin-top: -57px;
-	font-family: 'open sans';
-	transition: margin-top 500ms ease-in-out;
+  font-family: 'open sans';
+  transition: margin-top 500ms ease-in-out;
 }
 
 .navbuttons.tiny {
@@ -336,10 +331,10 @@ a.current:hover:after{
 .cd-btn {
 	position: relative;
 	float: right;
-	height: 28px;
-	width: 80px;
-	margin-right: 40px;
-	margin-top: -29px;
+	height: 28pt;
+	width: 80pt;
+	margin-right: 40pt;
+	margin-top: -29pt;
 	background-image: url(../images/Hamburgler.svg);
 	background-repeat: no-repeat;
   background-size: auto auto;
@@ -347,10 +342,10 @@ a.current:hover:after{
 }
 
 .cd-panel-content hr {
-	width: 80px;
+	width: 80pt;
 	background-color: #88BCCD;
 	color: #88BCCD;
-	height: 1px;
+	height: 1pt;
 	border: 0 none;
 }
 
@@ -363,7 +358,7 @@ a.current:hover:after{
 	background-color: #f6f6f5;
 	text-align: center;
 	font-family: 'Merriweather', serif;
-	font-size: 18px;
+	font-size: 18sd;
 	color: #2f1e0f;
 }
 
