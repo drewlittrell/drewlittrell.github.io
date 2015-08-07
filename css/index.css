@@ -11,9 +11,9 @@ nav {
 }
 
 .email {
-	display: inline;
+  display: inline;
   position: relative;
-	bottom: 74px;
+  bottom: 74pt;
   clear: both;
   z-index: 8;
   margin: 0 auto;
